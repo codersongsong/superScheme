@@ -29,3 +29,17 @@ Links
 Help
 -----
 * https://github.com/XX-net/XX-Net/wiki/How-to-contribute
+
+
+2017.17.19
+-----
+* create table tbl_user_info  (
+     id integer primary key AUTO_INCREMENT,
+     name  varchar(200) not null,
+     loginNo       varchar(64) ,
+     sex     varchar(5) ,
+     age        integer,
+     createTime char(14)
+  );
+
+
