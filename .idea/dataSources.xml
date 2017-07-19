@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="account_pre@10.126.53.49" uuid="41d06158-8613-4271-b08d-a4b7c920b77e">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@10.126.53.49:1521:predb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="account_uat@10.126.53.197" uuid="7b93cf0e-6f9a-4005-9085-2e64d7fe60cb">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@10.126.53.197:1521:finance</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="framework_uat@10.126.53.184" uuid="528df55f-2d00-4f99-9fe5-e9c80af891c4">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@10.126.53.184:31521:PRE_PRO</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="insuranceuat@10.126.53.197" uuid="471f4a2e-6dfc-4828-a15e-60b6ce2efca4">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@10.126.53.197:1521:finance</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="loanuat@10.126.53.197" uuid="c3e3ed36-262f-4632-b3ff-7afbbd8bf3c5">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@10.126.53.197:1521:finance</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="VM_finance@10.144.36.253" uuid="b383b298-db9b-4ece-bc7b-5d37ecfcbcef">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.144.36.253:3306/finance</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="companyuat@10.126.53.197" uuid="6c3c7fa2-f2df-48f6-9e7b-1cf757980216">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@10.126.53.197:1521:finance</jdbc-url>
+    </data-source>
+  </component>
+</project>

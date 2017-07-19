@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="superScheme:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="superScheme.war">
+      <element id="artifact" artifact-name="superScheme:war exploded" />
+    </root>
+  </artifact>
+</component>

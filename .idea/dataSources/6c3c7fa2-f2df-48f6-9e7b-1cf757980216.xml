@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="companyuat@10.126.53.197">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="COMPANYUAT">
+      <ObjectId>98</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SCOTT">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="CASHIERUAT">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="GFSMBUAT">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="ACCOUNTUAT">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="MAMMONUAT">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="CARDREALUAT">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="SNUAT">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="LOANUAT">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="MAMMON">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="GFSMBSIT">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="GFSCPUAT">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="LOANSIT">
+      <ObjectId>97</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="FUNDUAT">
+      <ObjectId>100</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="GOME_MAMMON">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="UAT_PR_BIGDATA">
+      <ObjectId>102</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="BAITIAOUAT">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="INSURANCEUAT">
+      <ObjectId>104</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="50" parent="2" name="TBL_SYS_DIC">
+      <ObjectId>85181</ObjectId>
+    </table>
+    <table id="51" parent="2" name="TBL_TASK_BASIC_CONFIG">
+      <ObjectId>85184</ObjectId>
+    </table>
+    <table id="52" parent="2" name="TBL_PROJECT_INFO">
+      <ObjectId>90117</ObjectId>
+    </table>
+    <table id="53" parent="2" name="TBL_CONTACT_INFO">
+      <ObjectId>90109</ObjectId>
+    </table>
+    <table id="54" parent="2" name="TBL_FILE_ASSET_INFO">
+      <ObjectId>90112</ObjectId>
+    </table>
+    <table id="55" parent="2" name="TBL_SFTP_INFO">
+      <ObjectId>90115</ObjectId>
+    </table>
+    <table id="56" parent="2" name="TBL_ASYNC_FLAG">
+      <ObjectId>90120</ObjectId>
+    </table>
+    <table id="57" parent="2" name="TBL_PRE_TARGET">
+      <ObjectId>90122</ObjectId>
+    </table>
+    <table id="58" parent="2" name="TBL_TARGET">
+      <ObjectId>90124</ObjectId>
+    </table>
+    <table id="59" parent="2" name="TBL_TARGET_REJECT">
+      <ObjectId>90127</ObjectId>
+    </table>
+    <table id="60" parent="2" name="TBL_TARGET_BILL_EXTEND">
+      <ObjectId>90129</ObjectId>
+    </table>
+    <table id="61" parent="2" name="TBL_PROJECT_CONTRACT_INFO">
+      <ObjectId>90131</ObjectId>
+    </table>
+    <table id="62" parent="2" name="TBL_COMPANY_COMOPERATION_LOG">
+      <ObjectId>90133</ObjectId>
+    </table>
+    <table id="63" parent="2" name="TBL_DIE_TASK_OPEN_CONFIG">
+      <ObjectId>90135</ObjectId>
+    </table>
+    <table id="64" parent="2" name="TBL_SITE_CHILD_TASK">
+      <ObjectId>90137</ObjectId>
+    </table>
+    <table id="65" parent="2" name="TBL_SYS_SEQUENCE">
+      <ObjectId>90139</ObjectId>
+    </table>
+    <table id="66" parent="2" name="TBL_VALIDATE_ERROR">
+      <ObjectId>90142</ObjectId>
+    </table>
+    <table id="67" parent="2" name="TBL_PROJECT_ATTACHMENT">
+      <ObjectId>90144</ObjectId>
+    </table>
+    <table id="68" parent="2" name="TBL_ERRORCODE_INFO">
+      <ObjectId>90146</ObjectId>
+    </table>
+    <table id="69" parent="2" name="TBL_COMPANY_INFO">
+      <ObjectId>91773</ObjectId>
+    </table>
+    <table id="70" parent="2" name="TBL_SEND_RECORD">
+      <ObjectId>96888</ObjectId>
+    </table>
+    <table id="71" parent="2" name="TBL_LOAN_PAYLOANER_SAP">
+      <ObjectId>104518</ObjectId>
+    </table>
+  </database-model>
+</dataSource>
