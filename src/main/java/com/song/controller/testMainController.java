@@ -22,12 +22,6 @@ public class testMainController {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-
-    /**
-     *
-     * @param paramsStr
-     * @return
-     */
     @RequestMapping("/monitor")
     public String home(String paramsStr){
 
