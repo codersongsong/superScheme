@@ -13,7 +13,7 @@ import javax.annotation.Resource;
 
 /**
  * @ClassName: springTest
- * @Description: ()
+ * @Description: (测试spring和mybatis的配置是否正确)
  * @Author: songzhengjie
  * @Date: 2017/7/20 16:30:16
  */
