@@ -40,12 +40,12 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
         <!-- 自动扫描mapping.xml文件 -->
-        <property name="mapperLocations" value="classpath*:mapper/*/*.xml"></property>
+        <property name="mapperLocations" value="classpath*:mapper/*.xml"></property>
     </bean>
 
     <!-- DAO接口所在包名，Spring会自动查找其下的类 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.cn.hnust.dao" />
+        <property name="basePackage" value="com.song.dao" />
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
     </bean>
 
@@ -55,8 +55,8 @@
         <property name="dataSource" ref="dataSource" />
     </bean>
 
-    <bean id="transactionSong"	class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+    <!--<bean id="transactionSong"	class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"></property>
     </bean>
-    <tx:annotation-driven transaction-manager="transactionSong" proxy-target-class="true" />
+    <tx:annotation-driven transaction-manager="transactionSong" proxy-target-class="true" />-->
 </beans>
