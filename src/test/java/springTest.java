@@ -37,6 +37,7 @@ public class springTest extends AbstractJUnit4SpringContextTests {
 
     @Test
     public void test() {
+        String nn = new String();
         TblUserTest tblUserTest = tblUserTestMapper.selectByPrimaryKey(1);
         System.out.println(tblUserTest.getName());
     }
